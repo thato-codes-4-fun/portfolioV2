@@ -10,9 +10,15 @@ const Clients = () => {
     <section id="testimonials" className="py-20">
       <h1 className="heading">
         Kind words from
-        <span className="text-purple"> satisfied clients</span>
+        <span className="text-purple"> satisfied clients </span>
+        From Fiverr
       </h1>
-
+      <p className="pt-10 text-lg text-center">
+        During my time as a freelancer on Fiverr, I was both a mobile app
+        developer (builing mobile apps with flutter and firebase) and a
+        freelance data miner (writting webscrapers with python and beautiful
+        soup)
+      </p>
       <div className="flex flex-col items-center max-lg:mt-10">
         <div
           // remove bg-white dark:bg-black dark:bg-grid-white/[0.05], h-[40rem] to 30rem , md:h-[30rem] are for the responsive design
@@ -25,7 +31,7 @@ const Clients = () => {
           />
         </div>
 
-        <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10">
+        {/* <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10">
           {companies.map((company) => (
             <React.Fragment key={company.id}>
               <div className="flex md:max-w-60 max-w-32 gap-2">
@@ -43,7 +49,7 @@ const Clients = () => {
               </div>
             </React.Fragment>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

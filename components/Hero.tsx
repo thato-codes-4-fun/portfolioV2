@@ -43,7 +43,7 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
+            Building Web and Mobile Applications is my passion
           </p>
 
           {/**
@@ -57,7 +57,17 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Adrian, a Next.js Developer based in Croatia.
+            Hi! I&apos;m Thato, a Software Developer based in Johannesburg.
+          </p>
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl mt-10">
+            A Passionate Developer with a strong foundation in full-stack and
+            mobile development. With experience in modern technologies like
+            Next.js, Flutter, and MongoDB, Ive successfully contributed to
+            projects across various industries, including travel, aviation, and
+            supply chain management. I thrive in collaborative environments,
+            quickly adapting to new tools and frameworks to deliver robust,
+            user-centric solutions. Im constantly learning and evolving, aiming
+            to build impactful applications that solve real-world problems.
           </p>
 
           <a href="#about">

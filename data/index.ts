@@ -1,6 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
+  { name: "Work Experience", link: "#experience" },
+  { name: "Education", link: "#education" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
@@ -106,35 +107,32 @@ export const projects = [
 
 export const testimonials = [
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: "Great work as allways! Timely delivery and very client oriented.",
+    name: "ozolinso",
+    title: "Fiverr Client",
+  },
+  {
+    quote: "Very pleasant experience. He is pro!",
+    name: "ozolinso",
+    title: "Fiverr Client",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Thato is a thoughtful and thorough professional who was dedicated to delivering a top notch product for me. We started with an assessment of what I wanted (app dev) and he explained the options and steps I could anticipate in building a finished app, and he was responsive throughout the project. Very happy with the execution and will rebook him! ",
+    name: "Maleele Chongo",
+    title: "Founder at Sponsher",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: "Great working with Thato, super professional and on time",
+    name: "Hodan Mo",
+    title: "Fiverr Client",
   },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
+  // {
+  //   quote:
+  //     "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+  //   name: "Michael Johnson",
+  //   title: "Director of AlphaStream Technologies",
+  // },
 ];
 
 export const companies = [
@@ -173,31 +171,69 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Software Developer",
+    company: "Levare Tech",
+    duration: "March 2024 - Present",
+    desc: "At Levare Tech, I contributed to building and enhancing web and mobile applications using a diverse tech stack, including Next.js, Flutter, and MongoDB. I developed custom features, optimized backend functions, and integrated complex API solutions across various sectors such as travel, aviation, and supply chain management. My role involved collaborating closely with cross-functional teams to deliver high-quality, scalable software solutions, while continuously learning and adapting to new technologies to meet project demands.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    duration: "Jan 2023 - April 2024",
+    company: "Fiverr",
+    title: "Mobile App Dev - Freelancer",
+    desc: "As a freelance mobile developer on Fiverr, I specialize in building cross-platform applications using Flutter and Firebase. My work includes transforming client ideas into high-quality, functional apps that meet specific needs and provide seamless user experiences.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    duration: "May 2021 - Nov 2021",
+    company: "Fiverr",
+    title: "Python Web Scraper Dev - Freelancer Fiverr",
+    desc: "As a freelance data miner on Fiverr, I specialized in writing web scraping scripts using Python and Beautiful Soup to extract valuable data from various websites. I developed custom solutions to collect, clean, and organize data into Excel spreadsheets, making it easy for clients to manage and analyze large datasets. My work involved automating data extraction processes, ensuring accuracy and efficiency, and delivering insights that supported business decisions.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
+    id: 3,
+    duration: "Feb 2023 - March 2024",
+    company: "Business Connection",
+    title: "Database Administrator - BCX",
+    desc: "At BCX, I worked as a Database Administrator , where I focused on maintaining and optimizing database environments. My responsibilities included deploying scripts efficiently, managing database backups, and ensuring data security and availability. I played a key role in migrating databases from on-premise to cloud solutions, which improved scalability and reduced infrastructure costs. Additionally, I was involved in upgrading SQL servers to enhance performance and security, and collaborated with development and operations teams to ensure reliable data management aligned with application needs.",
+    className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp4.svg",
+  },
+];
+
+export const educationExperience = [
+  {
+    id: 1,
+    title: "NQF 5 Software Engineering",
+    company: "_WeThinkCode. ",
+    duration: "Sept 2021 - Jan 2023",
+    desc: "During my time at WeThinkCode, I completed a rigorous software development program, focusing on both foundational and advanced programming concepts. I gained hands-on experience in various technologies, including Python, Java, Flutter, and Firebase, through practical, real-world projects. My training covered a wide range of topics, such as object-oriented programming, full-stack web and mobile development, automation testing, and design patterns. This immersive program honed my problem-solving skills and equipped me with the technical expertise needed to tackle complex software challenges in collaborative environments.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
+  },
+  {
+    id: 2,
+    title: "NQF 7 Bcom Law",
+    company: "University of Pretoria",
+    duration: "2013- 2018",
+    desc: "Graduated with a BCom in Law, specializing in economics and business. This program provided a strong foundation in commercial law, contract law, and economic principles, equipping me with analytical and problem-solving skills relevant to both legal and business contexts.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
+  },
+  {
+    id: 3,
+    title: "Full Stack Web Development",
+    company: "University of Helsinki",
+    duration: "Sept 2023 - Present",
+    desc: "Currently studying Full-Stack Web Development through the University of Helsinki’s online program. This course covers key aspects of modern web development, including JavaScript, React, Node.js, and RESTful APIs, focusing on building scalable and efficient full-stack applications. The program emphasizes practical skills and hands-on projects, enhancing my ability to design and implement robust web solutions.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
   },
 ];
 
